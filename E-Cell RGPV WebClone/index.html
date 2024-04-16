@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,89.1,300..800;1,89.1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>E-CELL RGPV</title>
+</head>
+
+<body>
+
+    <header id="header" class="header">
+        <img src="./assets/logo.png" alt="logo" class="logo">
+        <button class="hamburger">&#9776;</button> <!-- Open sidebar icon -->
+        <button class="close-sidebar">&times;</button> <!-- Close sidebar icon -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Initiative</a></li>
+            <li><a href="#">Archives</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="registration">REGISTRATION</button>
+    </header>
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Initiative</a></li>
+            <li><a href="#">Archives</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="registration">REGISTRATION</button>
+    </div>
+
+    <div class="container">
+        <div class="main-animation">
+            <!-- animation                -->
+            <img src="./assets/animation/0.png" alt="Logo" class="logo-animation">
+            <img src="./assets/animation/1.jpg" alt="Image 1" class="rotate-cw">
+            <img src="./assets/animation/2.png" alt="Image 2" class="rotate-acw">
+            <img src="./assets/animation/3.png" alt="Image 3" class="rotate-cw">
+            <img src="./assets/animation/4.png" alt="Image 4" class="rotate-acw">
+            <img src="./assets/animation/5.png" alt="Image 5" class="rotate-cw">
+            <img src="./assets/animation/6.png" alt="Image 6" class="rotate-acw">
+            <img src="./assets/animation/7.png" alt="Image 7" class="rotate-cw">
+        </div>
+
+        <div class="write">
+            <h4>An RGPV Initiative</h4>
+            <br>
+            <span>working to</span>
+            <span id="typing"></span>
+            <br>
+            <button class="evolve">E-VOLVE : E-CELL ANNUAL MAGZINE</button>
+        </div>
+    </div>
+
+    <hr class="hr">
+
+    <div class="vision">
+        <h1>OUR VISION <img src="./assets/animation/consulting.gif" alt="" class="brain"></h1>
+        
+        <div class="para-vision"><P>
+            e-Entrepreneurship Cell, RGPV is a non-profit organization that believes entrepreneurship is pivotal for our
+            country's development. It was established with the purpose of creating, fostering, and promoting the spirit
+            of developing a culture of entrepreneurship in our surroundings. The team here works to encourage students
+            to embrace the idea of starting their venture and dispel the fear of starting a startup. We guide young
+            entrepreneurs and technopreneurs in their journey from campus to incubators and support them in transforming
+            their budding ideas into successful startups.
+        </P></div>
+    </div>
+
+    <div class="vision" id="innovate">
+        <h1>WE BELIEVE IN I<sup>3 <img src="./assets/animation/roundabout.png" alt="" style="height: 40px;" class="i"></sup> </h1>
+
+        <div><img src="./assets/animation/search.gif" alt="" class="i3">
+            <p>Identify</p>
+        </div>
+
+        <div><img src="./assets/animation/out-of-the-box.gif" alt="" class="i3">
+            <p>Innvovate</p>
+        </div>
+
+        <div><img src="./assets/animation/incubation.gif" alt="" class="i3">
+            <p>Incubate</p>
+        </div>
+        
+        
+        
+    </div>
+
+    <script>
+        var typed = new Typed('#typing', {
+            strings: ['promote Entrepreneurship', 'provide Internship', 'bring Exposure', 'incubate Startups'],
+            typeSpeed: 80,
+        });
+    </script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
