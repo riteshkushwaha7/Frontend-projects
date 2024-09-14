@@ -1,0 +1,416 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+.sidebar {
+    background-color: #000;
+    width: 340px;
+    border-radius: 1rem;
+}
+
+.main-content {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
+
+}
+
+.music-player {
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    background-color: #121212;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    padding: 0.25rem 0.5rem;
+}
+
+.nav-options {
+    font-size: 1.25rem;
+    opacity: 0.7;
+    padding: 0.5rem;
+}
+
+.nav-options a {
+    font-size: 1rem;
+    margin-left: 1rem;
+
+}
+
+.nav-options:hover {
+    opacity: 1;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.25rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.lib-option img {
+    height: 1.15rem;
+    width: 1.15rem;
+}
+
+
+.icons img {
+    opacity: 0.5;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons img:hover {
+    opacity: 1;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.box {
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+
+}
+
+.box-p1 {
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    background-color: #232323;
+    margin: 1rem;
+}
+
+.box-p2 {
+    font-size: 0.85rem;
+    opacity: 0.9;
+    background-color: #232323;
+    margin: 1rem;
+    color: white;
+}
+
+.badge {
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
+
+.spotify {
+
+    height: 3rem;
+    width: fit-content;
+    align-items: center;
+    padding: 0.5rem;
+
+}
+
+.sticky-nav-icons {
+    height: 3rem;
+    width: 3rem;
+}
+
+.Enter {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 3rem;
+    opacity: 0.75;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.login {
+    color: black;
+    background-color: white;
+    border-radius: 1.5rem;
+    border: 100%;
+    font-size: 0.75rem;
+    font-weight: 500;
+    height: 2.8rem;
+    width: 6rem;
+
+}
+
+.signup {
+    color: white;
+    background-color: transparent;
+    height: 3.2rem;
+    font-weight: 600;
+    font-size: 0.75rem;
+    opacity: 0.9;
+    border: none;
+}
+
+.heading {
+    margin-top: 5rem;
+    background-color: #121212;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.card {
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+}
+
+.cards-container {
+    display: inline-flex;
+    background-color: #121212;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    font-weight: 600;
+    color: white;
+    background-color: #121212;
+}
+
+.card-info {
+    font-size: 0.75rem;
+    opacity: 0.5;
+    color: #fff;
+    background-color: #121212;
+}
+
+.footer {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* prepared by Ritesh Kushwaha*/
+.line {
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+.music-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.allbum {
+    width: 25%;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    position: fixed;
+    background-color: #000;
+}
+
+.player {
+    width: 50%;
+}
+
+.control {
+    width: 25%;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+    position: fixed;
+    background-color: #000;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.player-control {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.player-controls img {
+    height: 1.5rem;
+    margin-left: 8%;
+    margin-right: 8%;
+    align-items: center;
+    display: inline-block;
+    background-color: #000;
+    opacity: 0.75;
+}
+
+.player-controls img:hover {
+    opacity: 1;
+    height: 130%;
+}
+
+.playback-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.progress-bar {
+    width: 50%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+
+
+}
+
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #07f35d;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.allbum img {
+    height: 3.5rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.one {
+    margin-top: 0.5rem;
+    color: #fff;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    font-weight: 500;
+    
+}
+
+.two {
+    opacity: 0.8;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.two:hover {
+    opacity: 1;
+}
+
+.control img {
+    opacity: 0.75;
+    height: 1.75rem;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.sound {
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sound::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+    
+
+
+}
+
+.sound::-webkit-slider-thumb {
+    appearance: none;
+    height: 2rem;
+    width: 1rem;
+    background-color: #f30707;
+    border-radius: 50%;
+    margin-top: -6px; 
+
+}
+
+.control img,input {
+    margin-right: 0.6rem;
+}
+
+.control img:hover {
+    opacity: 1;
+}
+
+.explore {
+    color: black;
+    background-color: white;
+    border-radius: 1.5rem;
+    border: 100%;
+    font-size: 0.75rem;
+    font-weight: 500;
+    height: 2.8rem;
+    width: 8rem;
+}
+
+.install {
+    color: white;
+    background-color: #232323;
+    border-radius: 1.5rem;
+    border: 100%;
+    font-size: 0.75rem;
+    font-weight: 400;
+    height: 2.8rem;
+    width: 6rem;
+}
